@@ -1,5 +1,3 @@
-@echo off 
-
 echo BIXBY
 adb shell pm uninstall -k --user 0 com.samsung.android.bixby.wakeup
 adb shell pm uninstall -k --user 0 com.samsung.android.app.spage
